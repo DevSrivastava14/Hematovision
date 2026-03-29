@@ -1,0 +1,97 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Main container */
+.container {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+}
+
+/* Title */
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: #ddd;
+}
+
+/* File input */
+input[type="file"] {
+    background: white;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Button */
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgba(255, 75, 43, 0.6);
+}
+
+/* Result page image */
+img {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+/* Prediction text */
+h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #00ffcc;
+}
+
+/* Back link */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+a:hover {
+    opacity: 1;
+}
